@@ -89,7 +89,7 @@ const Registration = () => {
         <p className="title">Yeni Hesab Yaradın</p>
         <p className="description">
           Körpem.az ailəsinə qoşulun və unikal endirimlər, yeni kolleksiyalar və
-          fərdi təkliflərdən faydalanın.
+          fərdi <br/> təkliflərdən faydalanın.
         </p>
 
         <form className="form-container" onSubmit={handleSubmit}>

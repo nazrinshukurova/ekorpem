@@ -17,6 +17,7 @@
 
 .description {
   color: #71706b;
+  text-align: center;
 }
 
 .form-container {
@@ -92,9 +93,9 @@ button {
   font-weight: 600;
   cursor: pointer;
 }
-img{
-    width: 200px;
-    height: fit-content;
+img {
+  width: 200px;
+  height: fit-content;
 }
 
 .disabled-button {
