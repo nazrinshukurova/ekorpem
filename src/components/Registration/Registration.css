@@ -1,0 +1,103 @@
+.registration-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title,
+.description {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.description {
+  color: #71706b;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 60%;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.form-container label {
+  align-self: flex-start;
+  font-weight: 500;
+  color: #2b3533;
+}
+
+.form-container input {
+  padding: 10px;
+  width: 100%;
+  border: 2px solid #e9e9e9;
+  border-radius: 9px;
+  outline: none;
+}
+
+.star {
+  color: red;
+}
+
+.check-box {
+  align-self: flex-start;
+  margin-top: 10px;
+}
+
+.check-box label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #626262;
+}
+
+.check-box input {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #acaea9;
+  border: none;
+  border-radius: 9px;
+  padding: 10px;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.sub-text {
+  text-align: center;
+  font-size: 13px;
+  color: #636e7a;
+  font-weight: 500;
+}
+
+.daxil-olun {
+  color: #527d20;
+  font-weight: 600;
+  cursor: pointer;
+}
+img{
+    width: 200px;
+    height: fit-content;
+}
+
+.disabled-button {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
